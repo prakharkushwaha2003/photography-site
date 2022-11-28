@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(camera.jpg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.navbar{width: 70%;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo img{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    border-radius: 60%;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items:center ;
+}
+.logo h1{
+    color: cornsilk;
+}
+/* menu section */
+.menu{
+    display: flex;
+    gap: 40px;
+}
+.menu a{text-decoration: none;
+    font-weight: bold;
+    color: rgb(5, 5, 4); 
+background-color: rgb(248, 238, 244);
+padding: 5px;
+border-radius: 10%;
+}
+.menu a:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: skyblue;
+}
+    /* .search-icon */
+ .search-icon{
+        padding: 5px;
+        text-align: center;
+    }
+
+.menu input{
+    outline: none;
+    border: 0;
+    background: transparent;
+    color: blue;
+    
+
+
+}
+/* about-section */
+.about{display:flex ;
+    flex-direction: column;
+   align-items: center;
+   
+   width: 70%;
+   margin: 5px auto;
+   margin-top: 50px;
+}
+.about img{align-self: center;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid white;
+}
+.about h2{font-weight: 5000;
+    font-size: 2rem;
+    color: cyan;
+}
+.about h4{background-color: azure;
+    color: darkorchid;
+}
+.about p{
+    color: darkturquoise;
+    text-align: center;
+}
+.about,h4,h2,p{
+    padding: 10px;
+}
+/* footerstart */
+.container{
+    background-color: coral;
+    padding: 40px;
+    margin-top: 40px;
+}
+.content1 h2,p{
+    text-align: center;
+    color: black;
+}
+.content2{margin-top: 30px;
+    background-color: cornflowerblue;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    align-items: center;
+}
+.content2 p{
+    color: rgb(11, 12, 11);
+}
